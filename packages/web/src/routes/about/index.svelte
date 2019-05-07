@@ -20,5 +20,5 @@
 
 {#each a1__content__md as content__md__dir, i}
 	{@html content__md__dir.html}
-	<A__Edit href="/beginners/_content/{a1__name[i]}.md"></A__Edit>
+	<A__Edit href="/about/_content/{a1__name[i]}.md"></A__Edit>
 {/each}
