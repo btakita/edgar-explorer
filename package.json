@@ -2,6 +2,12 @@
   "name": "@edgar-explorer/dev",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.13.3"
-  }
+    "lerna": "^3.13.4"
+  },
+	"workspaces": {
+		"packages": [
+			"packages/*",
+			"packages/ctx-core/packages/*"
+		]
+	}
 }
